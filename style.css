@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    border: 2px solid #007acc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007acc;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s; /* アニメーション */
+}
+
+button:hover {
+    transform: scale(1.1); /* ボタン拡大 */
+    background-color: #005f99;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    transition: opacity 0.5s; /* フェードイン効果 */
+}
+
+.hidden {
+    opacity: 0;
+}
+```
